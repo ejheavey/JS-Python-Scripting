@@ -1,0 +1,91 @@
+var lightsList = '[{...content...}]';
+	fixtures = JSON.parse(lightsList);
+var count = 0;
+
+var libList = document.getElementsByTagName('a');
+	myLib = libList[25];
+	myLib.click();
+
+var cnbList = document.getElementsByClassName('component-save-link');
+	cnb = cnbList[0];
+var inputs = document.getElementsByTagName('input');
+var selects = document.getElementsByTagName('select');
+
+	nameId = inputs[0];
+	conditionComment = inputs[1];
+	lampMake = inputs[2];
+	lampModel = inputs[3];
+	lampLength = inputs[4];
+	lampCCT = inputs[5];
+	lampCRI = inputs[6];
+	lampLumFlux = inputs[7];
+	lampIllum = inputs[8];
+	
+	ballastMake = inputs[9];
+	ballastModel = inputs[10];
+	ballastPower = inputs[11];
+	ballastFactor = inputs[12];
+	fixtureHeight = inputs[13];
+	lampsPerFixture = inputs[14];
+	ballastsPerFixture = inputs[15];
+
+	basement = inputs[17];
+	firstFlr = inputs[18];
+	secndFlr = inputs[19];
+	thirdFlr = inputs[20];
+	forthFlr = inputs[21];
+	fifthFlr = inputs[22];
+	sixthFlr = inputs[23];
+	svnthFlr = inputs[24];
+	eghthFlr = inputs[25];
+	ninthFlr = inputs[26];
+	mechaFlr = inputs[27];
+	
+	nameId.value = '3F32T8';
+	
+var numbFixtures = 0;
+
+for (count = 0;count<fixtures.length;count++){
+	if (fixtures[count].FixtureType === '3F32T8' && fixtures[count].floor ==='Cellar'){	
+		numbFixtures = (+numbFixtures) + (+fixtures[count].NumberOfFixtures);
+	}
+}
+
+basement.value = numbFixtures;
+
+if (nameId.value.includes('T8') || nameId.value.includes('T12')){
+	lampMake.value = 
+	lampModel.value = 
+	lampLength.value = 
+	lampCCT.value = 
+	lampCRI.value = 
+	lampLumFlux.value = 
+	lampIllum. value = 
+	
+	ballastMake.value = 
+	ballastModel.value = 
+	ballastPower.value = 
+	ballastFactor.value = 
+	fixtureHeight.value = 
+	lampsPerFixture.value = 
+	ballastsPerFixture.value = 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
