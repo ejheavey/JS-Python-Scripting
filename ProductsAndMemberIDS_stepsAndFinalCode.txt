@@ -19,19 +19,6 @@ load_product_data(productData)
 #########################
 #############
 
-API KEY: AIzaSyABwEFsc2Yl3suU3cyJ_ftmtNrU9yxZxcw
-CLIENT ID: 108152054519-avab5g4aenkou5bj2t8u77o16ua39avs.apps.googleusercontent.com
-CLIENT SECRET: -AL8muCXtevlOM2etG7_XAuX
-
-1) Go to AliExpress.com, enter search
-
-2) Go to console, run code once
-
-	_> Read spreadsheet (via url)
-	_> Establish list items on page
-	_> push Number(products[i].firstChild.attributes[1].value) to the next empty cell in col. B
-of the sheet
-
-3) Click to go to next page, code automatically runs again for the next loaded page
-
-6) Repeat step 3 until desired amount of data is written into the sheet
+API KEY: 
+CLIENT ID: 
+CLIENT SECRET: 
